@@ -1,0 +1,26 @@
+# Python开发环境 - GitHub Codespace
+
+专为Python学习和自动化脚本开发设计的云端环境。
+
+## 🚀 快速开始
+1. 点击 "Code" → "Codespaces" → "Create codespace"
+2. 等待环境构建（2-5分钟）
+3. 运行 `python src/hello.py`
+
+## 📦 包含的工具
+- Python 3.12 + 完整数据科学栈
+- Git + GitHub CLI
+- Docker + Docker Compose
+- Jupyter Lab/Notebook
+- VS Code + GitHub Copilot
+
+## 🔗 ZeroTier连接
+```bash
+# 安装ZeroTier
+curl -s https://install.zerotier.com | bash
+
+# 加入网络
+sudo zerotier-cli join 8d1c312afa79bdea
+
+# 连接到WSL
+ssh -p 2222 qw192@10.21.220.69
